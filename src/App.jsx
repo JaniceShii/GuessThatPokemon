@@ -173,9 +173,11 @@ function App() {
     <div
       style={{
         minHeight: "100vh",
+        width: "100vw",          
         padding: "2rem",
         display: "flex",
         justifyContent: "center",
+        alignItems: "flex-start", // or center for vertical centering
         background:
           "radial-gradient(circle at top, #ffe066, #ff6b6b 30%, #1c1c3c 80%)",
         color: "white",
